@@ -56,15 +56,20 @@ img.avatar {
   size: 20em;
 }
 
+.anc {
+  text-decoration: none;
+}
 .but {
-  background-color: #04aa6d;
+  /* background-color: #04aa6d; */
   color: white;
-  padding: 14px 20px;
+  size: 30em;
+
+  /* padding: 14px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
   width: 100%;
-  text-align: center;
+  text-align: center; */
 }
 
 /* The "Forgot password" text */
