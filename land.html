@@ -3,6 +3,9 @@
   <head>
     <title>Home page</title>
     <link rel="stylesheet" href="land.css" />
+
+    <!-- <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script> -->
   </head>
   <body>
     <br />
@@ -13,11 +16,18 @@
         type="text"
         placeholder="Enter Student name"
         name="sname"
+        id="sname"
         required
       />
       <br />
       <label for="bname"><b>Book Name</b></label>
-      <input type="text" placeholder="Enter Book Name" name="bname" required />
+      <input
+        type="text"
+        placeholder="Enter Book Name"
+        id="bname"
+        name="bname"
+        required
+      />
 
       <br />
       <br />
@@ -26,21 +36,37 @@
         type="tel"
         placeholder="Enter Parents Mobile Number"
         name="mno"
+        id="mno"
+        required
+      />
+      <br /><br />
+      <label for="idate"><b>Issue Date</b></label>
+      <input
+        type="date"
+        placeholder="Enter Issue Date"
+        id="idate"
+        name="idate"
         required
       />
       <br />
-      <label for="idate"><b>Issue Date</b></label>
-      <input type="date" placeholder="Enter Issue Date" name="idate" required />
       <br />
       <label for="rdate"><b>Expected Return Date</b></label>
-      <input type="date" placeholder="Approx Return Date" name="rdate" />
+      <input
+        type="date"
+        placeholder="Approx Return Date"
+        id="rdate"
+        name="rdate"
+      />
 
       <br />
       <br />
 
-      <button type="submit">SUBMIT</button>
+      <button onclick="saveData()">SUBMIT</button>
       <br />
       <button type="submit">PREVIEW</button>
     </div>
+    <!-- <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js"></script> -->
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <script src="./land.js"></script>
   </body>
 </html>
