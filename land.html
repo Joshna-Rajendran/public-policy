@@ -1,69 +1,61 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Home page</title>
+    <title>இறங்கும் பக்கம்</title>
     <link rel="stylesheet" href="land.css" />
-
     <!-- <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore.js"></script>
     <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script> -->
   </head>
   <body>
-    <br />
-    <br />
+    <h2>விவரங்களை உள்ளிடவும்</h2>
     <div class="container">
-      <label for="sname"><b>Student name</b></label>
+      <label for="sname"><b>மாணவர் பெயர்</b></label>
       <input
         type="text"
-        placeholder="Enter Student name"
+        placeholder="மாணவர் பெயரை உள்ளிடவும்"
         name="sname"
         id="sname"
         required
       />
       <br />
-      <label for="bname"><b>Book Name</b></label>
+      <br/>
+      <label for="bname"><b>புத்தகத்தின் பெயர்</b></label>
       <input
         type="text"
-        placeholder="Enter Book Name"
+        placeholder="புத்தகத்தின் பெயரை உள்ளிடவும்"
         id="bname"
         name="bname"
         required
       />
-
+      <br/>
       <br />
-      <br />
-      <label for="mno"><b>Mobile Number</b></label>
+      <label for="mno"><b>கைபேசி எண்</b></label>
       <input
         type="tel"
-        placeholder="Enter Parents Mobile Number"
+        placeholder="பெற்றோரின் மொபைல் எண்ணை உள்ளிடவும்"
         name="mno"
         id="mno"
         required
       />
-      <br /><br />
-      <label for="idate"><b>Issue Date</b></label>
+      <br />
+      <br/>
+      <label for="idate"><b>வெளியீட்டு தேதி</b></label>
       <input
         type="date"
-        placeholder="Enter Issue Date"
+        placeholder="வெளியீட்டு தேதியை உள்ளிடவும்"
         id="idate"
         name="idate"
         required
       />
-      <br />
-      <br />
-      <label for="rdate"><b>Expected Return Date</b></label>
+      <label for="rdate"><b>எதிர்பார்க்கப்படும் திரும்பும் தேதி</b></label>
       <input
         type="date"
-        placeholder="Approx Return Date"
+        placeholder="தோராயமாக திரும்பும் தேதி"
         id="rdate"
         name="rdate"
       />
-
       <br />
-      <br />
-
-      <button onclick="saveData()">SUBMIT</button>
-      <br />
-      <button type="submit">PREVIEW</button>
+      <button onclick="saveData()">சமர்ப்பிக்கவும்</button>
     </div>
     <!-- <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js"></script> -->
     <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>

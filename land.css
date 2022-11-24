@@ -1,10 +1,18 @@
 /* Bordered form */
+body {
+  background-image: url('lib.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
 form {
     border: 3px solid #f1f1f1;
   }
-  
+  h2{
+    text-align:center;
+  }
   /* Full-width inputs */
-  input[type=text], input[type=password] {
+  input[type=password]{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -12,7 +20,33 @@ form {
     border: 1px solid #ccc;
     box-sizing: border-box;
   }
-  
+  input[type=text]
+  {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+  }
+  input[type=tel]
+  {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+  }
+  input[type=date]
+  {
+    width: 30%;
+    padding: 6px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+  }
   /* Set a style for all buttons */
   button {
     background-color: #04AA6D;
@@ -32,7 +66,7 @@ form {
   
   /* Add padding to containers */
   .container {
-    padding: 16px;
+    padding: 10px;
   }
   
 
