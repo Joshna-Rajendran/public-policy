@@ -9,6 +9,7 @@
   <body>
     <h2>விவரங்களை உள்ளிடவும்</h2>
     <div class="container">
+      <form>
       <label for="sname"><b>மாணவர் பெயர்</b></label>
       <input
         type="text"
@@ -54,10 +55,13 @@
         placeholder="தோராயமாக திரும்பும் தேதி"
         id="rdate"
         name="rdate"
+        required
       />
       <br />
       <button onclick="saveData()">சமர்ப்பிக்கவும்</button>
+    </form>
     </div>
+
     <!-- <script src="https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js"></script> -->
     <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
     <script src="./land.js"></script>
